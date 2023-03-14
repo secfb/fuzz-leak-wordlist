@@ -2,6 +2,13 @@
 A collection of **special** paths linked to major web CVEs, known juicy APIs, misconfigurations.. etc. These could be used for web-content discovery as a way to find quick wins.
 
 
+
+https://github.com/ayoubfathi/leaky-paths + https://github.com/Bo0oM/fuzz.txt => fuzz-leak.txt
+
+
+https://github.com/ayoubfathi/leaky-paths + https://github.com/Bo0oM/fuzz.txt + https://github.com/six2dez/OneListForAll/blob/main/onelistforallmicro.txt => fuzz-leak-large.txt
+
+
 ## Goal
 With the goal of providing the community with high-quality wordlists, I opened up this repository for contributions from anyone. This should be your go-to for quick hits on any targets, whether you're a Pentester using it for assessments, a security engineer using it as part of your DAST solution, or a bug bounty hunter scanning a large number of subdomains/hosts for quick wins using high-quality wordlists. It contains:
 
