@@ -7,14 +7,17 @@ https://github.com/ayoubfathi/leaky-paths + https://github.com/Bo0oM/fuzz.txt =>
 
 https://github.com/ayoubfathi/leaky-paths + https://github.com/Bo0oM/fuzz.txt + https://github.com/six2dez/OneListForAll/blob/main/onelistforallmicro.txt => fuzz-leak-large.txt
 
-<img width="395" alt="image" src="https://user-images.githubusercontent.com/38748801/225014771-4e4d9c20-f484-401f-9d48-215c85107493.png">
+<img width="387" alt="image" src="https://user-images.githubusercontent.com/38748801/225244673-59cdb369-c30c-4410-922d-bc2bd1a2a6c9.png">
 
 ```ruby 
-fuzz-leak-wordlist git:main ❯ wc -l *|sort -u                                                                                     ✖
+fuzz-leak-wordlist git:main ❯ wc -l *|sort -u                                                                                                                               ✖
     1693 leaky-paths.txt
     6644 fuzz-leak.txt
    29032 fuzz-leak-large.txt
-   37369 total
+   52277 asp.txt
+   64268 php.txt
+   66065 fuzzcmd.txt
+  219979 total
 
 ```
 -----------
